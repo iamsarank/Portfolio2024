@@ -7,6 +7,8 @@ import { TiSocialGithubCircular } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
 
+import profileImg from "../assets/images/profile-1.png"
+
 const Home = () => {
   return (
     <div>
@@ -32,29 +34,41 @@ const Home = () => {
                     </div>
                     <div className="text-[22px] text-gray-500">
                       <Link to="">
-                      <TiSocialInstagram />
+                        <TiSocialInstagram />
                       </Link>
                     </div>
                     <div className="text-[25px] text-gray-500">
                       <Link to="">
-                      <TiSocialTwitter />
+                        <TiSocialTwitter />
                       </Link>
                     </div>
                     <div className="text-[25px] text-gray-500">
                       <Link to="">
-                      <TiSocialGithubCircular />
+                        <TiSocialGithubCircular />
                       </Link>
                     </div>
                     <div className="text-[25px] text-gray-500">
                       <Link to="">
-                      <TiSocialLinkedin />
+                        <TiSocialLinkedin />
                       </Link>
                     </div>
                   </div>
                   <button className="btn1">Download CV</button>
                 </div>
               </div>
+              <div className="flex gap-[30px]">
+                <div>
+                  <img className="w-full" src={profileImg} />
+                </div>
+              </div>             
             </div>
+            <div>
+                <svg className="arrows">
+                  <path className="a1" d="M0 0 L30 32 L60 0"></path>
+                  <path className="a2" d="M0 20 L30 52 L60 20"></path>
+                  <path className="a3" d="M0 40 L30 72 L60 40"></path>
+                </svg>               
+              </div>
           </div>
         </section>
       </>
