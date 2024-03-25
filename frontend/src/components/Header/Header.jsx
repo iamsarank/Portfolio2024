@@ -10,7 +10,7 @@ const NavLinks = [
     },
     {
         path: "/about",
-        display: "About Us",
+        display: "About Me",
     },
     {
         path: "/experience",
