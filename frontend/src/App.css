@@ -81,6 +81,9 @@ body{
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+.tac{
+  text-align: -webkit-center !important;
+}
 
 @media only screen and (max-width: 768px) {
   .navigation {
