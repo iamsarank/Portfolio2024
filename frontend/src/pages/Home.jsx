@@ -106,7 +106,7 @@ const Home = () => {
                       </div>
                       <h2 className="font-[600] text-[18px] mb-2 text-center">Product Design</h2>
                       <p className="text-justify text-[14px] text-gray-600">Turn what you have of digital product into reality.
-                      For any platform you consider.</p>
+                        For any platform you consider.</p>
                     </div>
 
                     <div className="p-3 lg:p-5 box__shadows__2 bg-white">
@@ -117,7 +117,7 @@ const Home = () => {
                       </div>
                       <h2 className="font-[600] text-[18px] mb-2 text-center">UI/UX Design</h2>
                       <p className="text-justify text-[14px] text-gray-600">Discovery, Strategy and experience design
-                      that enables stronger customer connections.
+                        that enables stronger customer connections.
                       </p>
                     </div>
 
@@ -129,10 +129,141 @@ const Home = () => {
                       </div>
                       <h2 className="font-[600] text-[18px] mb-2 text-center">Interactive Design</h2>
                       <p className="text-justify text-[14px] text-gray-600">Turn what you have of digital product into reality.
-                      For any platform you consider.</p>
+                        For any platform you consider.</p>
                     </div>
 
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="container">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:gap-[30px] mt-[30px] lg-[55px] ">
+              <div className="tac text-center">
+                <h1 className="text-[24px] leading-[40px] text-headingColor font-[700] md:text-[30px] 
+              md:leading-[50px]">
+                  Experience
+                </h1>
+                <div className="w-20 h-2 bg-secondaryColor "></div>
+                <div>
+                  <ul
+                    aria-label="Alternative changelog feed"
+                    role="feed"
+                    className="relative flex flex-col gap-12 py-12 pl-6 before:absolute before:top-0 
+                    before:left-6 before:h-full before:-translate-x-1/2 
+                    before:border before:border-dashed before:border-slate-200 
+                    after:absolute after:top-6 after:left-6 after:bottom-6 after:-translate-x-1/2 
+                    after:border after:border-slate-200 lg:pl-0 lg:before:left-[8.5rem] lg:after:left-[8.5rem]"
+                  >
+                    <li
+                      role="article"
+                      className="relative pl-6 before:absolute before:left-0 before:top-2 
+                      before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full
+                       before:bg-sky-700 before:ring-2 before:ring-white lg:flex lg:gap-12 
+                       lg:pl-0 lg:before:left-[8.5rem]"
+                    >
+                      <h4 className="hidden text-sm font-medium leading-7 text-slate-500 lg:block lg:w-28 lg:text-right">
+                        2014-2017
+                      </h4>
+                      <div className="flex flex-col flex-1 gap-4">
+                        <h3 className="text-lg text-left font-bold leading-7 text-secondaryColor">
+                          Bachelor of Science in Computer Science
+                        </h3>
+                        <p className=" text-slate-500 text-start">
+                          Ayya Nadar Janaki Ammal College, Sivakasi.
+                        </p>
+                      </div>
+                    </li>
+                    <li
+                      role="article"
+                      className="relative pl-6 before:absolute before:left-0 before:top-2 
+                      before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full
+                       before:bg-sky-700 before:ring-2 before:ring-white lg:flex lg:gap-12 
+                       lg:pl-0 lg:before:left-[8.5rem]"
+                    >
+                      <h4 className="hidden text-sm font-medium leading-7 text-slate-500 lg:block lg:w-28 lg:text-right">
+                        2017-2020
+                      </h4>
+                      <div className="flex flex-col flex-1 gap-4">
+                        <h3 className="text-lg text-left font-bold leading-7 text-secondaryColor">
+                          Master Of Computer Applications
+                        </h3>
+                        <p className=" text-slate-500 text-start">
+                          PSG College Of Technology, Coimbatore.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="tac text-center">
+                <h1 className="text-[24px] leading-[40px] text-headingColor font-[700] md:text-[30px] 
+              md:leading-[50px]">
+                  Experience
+                </h1>
+                <div className="w-20 h-2 bg-secondaryColor "></div>
+                <div>
+                  <ul
+                    aria-label="Alternative changelog feed"
+                    role="feed"
+                    className="relative flex flex-col gap-12 py-12 pl-6 before:absolute before:top-0 
+                    before:left-6 before:h-full before:-translate-x-1/2 
+                    before:border before:border-dashed before:border-slate-200 
+                    after:absolute after:top-6 after:left-6 after:bottom-6 after:-translate-x-1/2 
+                    after:border after:border-slate-200 lg:pl-0 lg:before:left-[8.5rem] lg:after:left-[8.5rem]"
+                  >
+                    <li
+                      role="article"
+                      className="relative pl-6 before:absolute before:left-0 before:top-2 
+                      before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full
+                       before:bg-sky-700 before:ring-2 before:ring-white lg:flex lg:gap-12 
+                       lg:pl-0 lg:before:left-[8.5rem]"
+                    >
+                      <h4 className="hidden text-sm font-medium leading-7 text-slate-500 lg:block lg:w-28 lg:text-right">
+                        2020-2021
+                      </h4>
+                      <div className="flex flex-col flex-1 gap-4">
+                        <h3 className="text-lg text-left font-bold leading-7 text-secondaryColor">
+                          Eventjini - UI Developer
+                        </h3>
+                        <p className=" text-slate-500 text-start">
+                          Creating Web Applications for Event and Ticket Booking platform for web and mobile Applications.
+                        </p>
+                        <p className=" text-slate-500 text-start">
+                          Coordinate with a team of UX and UI developers to build quality web applications with cross-browser compatibility.
+                        </p>
+                        <p className=" text-start text-slate-500">
+                          Support the development of front-end systems using HTML, JavaScript, and React
+                        </p>
+                      </div>
+                    </li>
+                    <li
+                      role="article"
+                      className="relative pl-6 before:absolute before:left-0 before:top-2 
+                      before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full
+                       before:bg-sky-700 before:ring-2 before:ring-white lg:flex lg:gap-12 
+                       lg:pl-0 lg:before:left-[8.5rem]"
+                    >
+                      <h4 className="hidden text-sm font-medium leading-7 text-slate-500 lg:block lg:w-28 lg:text-right">
+                        2021- Present
+                      </h4>
+                      <div className="flex flex-col flex-1 gap-4">
+                        <h3 className="text-lg text-left font-bold leading-7 text-secondaryColor">
+                          Lookman - Frontend Developer
+                        </h3>
+                        <p className=" text-slate-500 text-start">
+                          Define interaction models, develop prototypes, conduct user testing, and establish
+                          UX/UI brand standards to deliver a unified user experience across desktop and mobile
+                        </p>
+                        <p className=" text-slate-500 text-start">Attend meetings with UI development teams, project managers,
+                          and customers to ensure alignment with project specifications</p>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
